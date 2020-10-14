@@ -1,7 +1,8 @@
 # README Generator
 
   ## Description
-  An automated program that will create a README.md file for you/
+  A program that dynamically creates readme.md files.
+  ![me](./img/photo1.png)
 
   ## Table of Contents
   
@@ -17,18 +18,18 @@
   The packages required to run this program are: inquirer
   
   ## Use
-  The intended use of the program is to quickly and easily write readme files
+  The intended use of the program is To create readme files
   
   ## Contributors
-  [Lindsey](https://github.com/LindseyM20)
+  [Lindsey, Brooklynne, Tea](https://github.com/LindseyM20, Aanderson120, LindseyM20)
   
   ## Test Instructions
-  n/a
+  none
   
   ## License Information
   none
   
   ## Questions
-  If you have any additional questions or concerns you can contact me at email@email.com. You can find additional projects at [AAnderson120](https://github.com/AAnderson120). 
+  If you have any additional questions or concerns you can contact me at undefined. You can find additional projects at [Aanderson120](https://github.com/Aanderson120). 
 
   

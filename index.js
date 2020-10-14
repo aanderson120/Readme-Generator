@@ -55,9 +55,15 @@ const inputAnswers = [
     },
     {
       type: "input",
-      name: "email",
-      message: "What is your email?"
-    }
+      name: "img",
+      message: "What is the href for any images or gif you want to include? (example ./images/index.png)"
+    },
+    {
+      type: "input",
+      name: "alt",
+      message: "What is the alt tag for your images or gif?"
+    },
+
   ];
 
 

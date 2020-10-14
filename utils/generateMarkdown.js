@@ -5,6 +5,7 @@ function generateMarkdown(data) {
 
   ## Description
   ${data.description}
+  ![${data.alt}](${data.img})
 
   ## Table of Contents
   
