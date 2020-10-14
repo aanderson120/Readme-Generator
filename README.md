@@ -1,35 +1,37 @@
 # README Generator
 
+
   ## Description
-  A program that dynamically creates readme.md files.
-  ![me](./img/photo1.png)
+  An easy way to create a README.md file using node.js
+  ![walkthrough](./assets/walkthrough.gif)
 
   ## Table of Contents
   
-  [Installation](#installation)
-  [Use](#use)
-  [Contributors](#contributors)
-  [Test Instructions](#test-instructions)
-  [License Information](#license-information)
-  [Questions](#questions)
-  [Contact](#contact)
+  | [Installation](#installation) |
+  | [Use](#use) |
+  | [Contributors](#contributors) |
+  | [Test Instructions](#test-instructions) |
+  | [License Information](#license-information) |
+  | [Questions](#questions) |
     
   ## Installation
-  The packages required to run this program are: inquirer
+  The packages required to run this program are: requires npm inquire
   
   ## Use
-  The intended use of the program is To create readme files
+  The intended use of the program is Quickly create a readmefile using simple prompts.
   
   ## Contributors
-  [Lindsey, Brooklynne, Tea](https://github.com/LindseyM20, Aanderson120, LindseyM20)
+  - [Lindsey Bordner](https://github.com/LindseyM20)
+  - [Brooklynne Audette](https://github.com/B-Audette)
+  - [Dortea Flores-Kestner](https://github.com/dfkestner)
   
   ## Test Instructions
   none
   
   ## License Information
-  none
+  n/a
   
   ## Questions
-  If you have any additional questions or concerns you can contact me at undefined. You can find additional projects at [Aanderson120](https://github.com/Aanderson120). 
+  If you have any additional questions or concerns you can contact me at email@email.com. You can find additional projects at [AAnderson120](https://github.com/AAnderson120). 
 
   

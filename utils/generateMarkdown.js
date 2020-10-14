@@ -1,39 +1,47 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
+function renderBadge(license) {
+  if (license !== "None") {
+    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
+  }
+  return ''
+}
 
-  return `# ${data.title}
+// function to generate markdown for README
+function generateMarkdown(response) {
+
+  return `# ${response.title}
+  ${renderBadge(response.license)}
 
   ## Description
-  ${data.description}
-  ![${data.alt}](${data.img})
+  ${response.description}
+  ![${response.alt}](${response.img})
 
   ## Table of Contents
   
-  [Installation](#installation)
-  [Use](#use)
-  [Contributors](#contributors)
-  [Test Instructions](#test-instructions)
-  [License Information](#license-information)
-  [Questions](#questions)
-  [Contact](#contact)
+  | [Installation](#installation) |
+  | [Use](#use) |
+  | [Contributors](#contributors) |
+  | [Test Instructions](#test-instructions) |
+  | [License Information](#license-information) |
+  | [Questions](#questions) |
+  | [Contact](#contact) |
     
   ## Installation
-  The packages required to run this program are: ${data.installation}
+  The packages required to run this program are: ${response.installation}
   
   ## Use
-  The intended use of the program is ${data.usage}
+  The intended use of the program is ${response.usage}
   
   ## Contributors
-  [${data.contribution}](https://github.com/${data.contributorUser})
+  [${response.contribution}](https://github.com/${response.contributorUser})
   
   ## Test Instructions
-  ${data.test}
+  ${response.test}
   
   ## License Information
-  ${data.license}
+  This is licensed under the ${response.license}
   
   ## Questions
-  If you have any additional questions or concerns you can contact me at ${data.email}. You can find additional projects at [${data.username}](https://github.com/${data.username}). 
+  If you have any additional questions or concerns you can contact me at ${response.email}. You can find additional projects at [${response.username}](https://github.com/${response.username}). 
 
   `;
   
